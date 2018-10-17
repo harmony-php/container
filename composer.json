@@ -2,6 +2,7 @@
   "name": "harmony-php/container",
   "description": "",
   "license": "MIT",
+  "minimum-stability": "dev",
   "authors": [
     {
       "name": "Nathan King",
@@ -11,7 +12,8 @@
   ],
   "require": {
     "php": "^7.2",
-    "php-di/php-di": "^6.0"
+    "php-di/php-di": "^6.0",
+    "adamnicholson/bag": "dev-master"
   },
   "config": {
     "vendor-dir": "src/vendor"
